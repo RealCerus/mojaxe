@@ -1,5 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat)](#contributors-) [![Haxelib badge](https://img.shields.io/badge/Haxelib-Not%20yet%20available-red)](https://haxelib.com/)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # mojaxe

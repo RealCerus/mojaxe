@@ -18,6 +18,7 @@
     }
   ],
   "contributorsPerLine": 7,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/All_contributors-<%= contributors.length %>-orange.svg?style=flat)](#contributors) [![Haxelib badge](https://img.shields.io/badge/Haxelib-Not%20yet%20available-red)](https://haxelib.com/)",
   "projectName": "mojaxe",
   "projectOwner": "RealCerus",
   "repoType": "github",
