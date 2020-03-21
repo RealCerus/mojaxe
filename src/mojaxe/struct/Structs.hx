@@ -7,9 +7,9 @@ typedef UuidUsername = {
     var username:String;
 }
 
-typedef UsernameTimestamp = {
-    var username:String;
-    var timestamp:Int64 = Int64.ofInt(-1);
+typedef UsernameChange = {
+    var name:String;
+    var changedToAt:Int64;
 }
 
 typedef FullNameResponseRaw = {
@@ -19,4 +19,34 @@ typedef FullNameResponseRaw = {
     var demo:Bool;
 }
 
-typedef FullNameResponse = mojaxe.struct.FullNameResponse;
+//typedef FullNameResponse = mojaxe.struct.FullNameResponse;
+
+typedef ProfilePropertyUnparsed = {
+    var name:String;
+    var value:String;
+}
+
+typedef ProfilePropertyRaw = {
+    var timestamp:Int64;
+    var profileId:String;
+    var profileName:String;
+    var textures:{
+        SKIN: {
+            url:String,
+            metadata: {
+                model:String
+            }
+        },
+        CAPE: {
+            url:String
+        }
+    };
+}
+
+typedef ProfileResponseRaw = {
+    var id:String;
+    var name:String;
+    var properties:Array<ProfilePropertyRaw>;
+}
+
+typedef Empty = {}
